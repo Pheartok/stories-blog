@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embersmith Stories</title>
+    <title>The Compendium of Malice</title>
     <style>
         body {
             font-family: 'Georgia', serif;
@@ -14,16 +14,36 @@
             color: #e0e0e0;
             background-color: #121212;
         }
-        h1 { border-bottom: 2px solid #444; padding-bottom: 10px; font-size: 2.2rem; color: #f1e7b9; }
-        p { font-size: 1.1rem; color: #aaa; }
+        h1 { border-bottom: 2px solid #444; padding-bottom: 10px; font-size: 2.2rem; color: #f1e7b9; margin-bottom: 5px; }
+        .subtitle { font-size: 1.1rem; color: #777; font-style: italic; margin-top: 0; margin-bottom: 30px; }
         
+        /* Introduction Block Quote */
+        .intro-quote {
+            border-left: 3px solid #b38f00;
+            padding-left: 20px;
+            margin: 40px 0;
+            font-style: italic;
+            color: #ccc;
+            font-size: 1.15rem;
+            line-height: 1.7;
+        }
+        .intro-author {
+            display: block;
+            font-style: normal;
+            font-size: 0.9rem;
+            color: #777;
+            margin-top: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
         /* Interactive Link Styling */
         a { color: #4da6ff; text-decoration: none; }
         a:hover { text-decoration: underline; color: #80bfff; }
         
         .chapter-list { list-style: none; padding: 0; margin-top: 30px; margin-bottom: 50px; }
         .chapter-list li { margin: 20px 0; font-size: 1.25rem; }
-        .chapter-meta { font-size: 0.9rem; color: #777; display: block; margin-top: 4px; font-style: italic; }
+        .chapter-meta { font-size: 0.9rem; color: #555; display: block; margin-top: 4px; font-style: italic; }
 
         /* Sleek Support Panel Box */
         .support-panel {
@@ -89,26 +109,30 @@
 <body>
 
     <h1>Embersmith Stories</h1>
-    <p>Welcome to the story collection.</p>
+    <div class="subtitle">Le compendium de la malice</div>
 
+    <!-- HOMEPAGE NARRATION INTRODUCTION -->
+    <div class="intro-quote">
+        "From the pages of antiquity come tales of innocence lost. Of corruption, deceit, and murder. I am Brother Robert de Marco, and I will be your guide as we explore Le compendium de la malice, The Compendium of Malice."
+        <span class="intro-author">— Brother Robert de Marco</span>
+    </div>
+
+    <!-- ARCHIVE LIST -->
     <ul class="chapter-list">
         <li>
-            <a href="chapter-1.html">Chapter 1: The Malice Inconnu</a>
-            <span class="chapter-meta">An Anthology Tale</span>
+            <span style="color: #777;">Tale I: Coming Soon</span>
+            <span class="chapter-meta">The ink is still wet on the parchment...</span>
         </li>
     </ul>
 
     <!-- MONETIZATION PANEL START -->
     <div class="support-panel">
         <h2>Support the Studio</h2>
-        <p>If you enjoyed these tales, consider supporting my independent, ad-free forge. One-time tips keep the lights on, while monthly memberships unlock early-access updates.</p>
+        <p>If you enjoy these dark tales, consider supporting my independent, ad-free forge. One-time tips keep the lights on, while monthly memberships unlock early-access updates.</p>
         
         <div class="button-container">
-            <!-- Points to your core Ko-fi page for one-off tips -->
             <a href="https://ko-fi.com/KennethGrass" target="_blank" class="kofi-btn btn-tip">☕ Drop a Tip</a>
-            
-            <!-- Points directly to your Ko-fi membership tier checkout tab -->
-            <a href="https://ko-fi.com/KennethGrass/tiers" target="_blank" class="kofi-btn btn-member">🛡️ Become a Member</a>
+            <a href="https://ko-fi.com/KennethGrass/tiers" target="_blank" class="kofi-btn btn-member">🛡️ Become a Member ($4.99)</a>
         </div>
     </div>
     <!-- MONETIZATION PANEL END -->
